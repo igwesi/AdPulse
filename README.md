@@ -34,6 +34,7 @@ This MVP is built using **Django (Fullstack)** to demonstrate the platform’s f
 
 
 ## 🧩 Project Structure
+```bash
 adpulse/
 │
 ├── accounts/ # Handles authentication and user profiles
@@ -70,7 +71,7 @@ adpulse/
 ├── templates/ # Base HTML and layout templates
 ├── manage.py
 └── requirements.txt
-
+```
 
 ---
 
