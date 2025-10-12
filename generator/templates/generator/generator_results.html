@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}Generated Results | AdPulse{% endblock %}
+{% block content %}
+<div class="max-w-3xl mx-auto py-12">
+  <h1 class="text-3xl font-semibold text-center mb-8">Your AI-Generated Ad Copies</h1>
+
+  <div class="bg-white shadow-lg rounded-xl p-8">
+    <pre class="whitespace-pre-wrap text-gray-800 text-lg">{{ output }}</pre>
+  </div>
+
+  <div class="text-center mt-8">
+    <a href="{% url 'generator_home' %}" class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-md hover:bg-indigo-700">Generate Another</a>
+  </div>
+</div>
+{% endblock %}
